@@ -1,0 +1,499 @@
+/* ---------- Start off Default CSS ---------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-10 {
+  width: 10%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-15 {
+  width: 15%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-16 {
+  width: 16.66%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-20 {
+  width: 20%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-25 {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-30 {
+  width: 30%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-33 {
+  width: 33.33%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-50 {
+  width: 50%;
+  padding: 0 15px;
+  float: left;
+}
+
+.col-80 {
+  width: 80%;
+  padding: 0 15px;
+  float: left;
+}
+
+.section-padding {
+  padding: 120px 0;
+}
+
+
+/* ---------- End off Default CSS ---------- */
+
+
+/* ---------- Start off Home Section ---------- */
+
+.home {
+  background-image: url(../images/Container.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0 200px 0;
+  position: relative;
+  z-index: 1;
+}
+
+section#home:after {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background: black;
+  position: absolute;
+  opacity: .5;
+  z-index: -1;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: yellow;
+  font-family: Wisdom Script;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.menu-item ul {
+  list-style: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  padding-left: 22px;
+  padding-top: 14px;
+}
+
+.menu-item {
+  float: right;
+}
+
+.home-content {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.home-btn a {
+  padding: 15px 40px;
+  background: yellow;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.home-btn {
+  margin-top: 70px;
+}
+
+.home-title h1 span {
+  font-family: Droid serif;
+  font-style: italic;
+  font-size: 25px;
+  color: white;
+  line-height: 70px;
+}
+
+.home-title h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: white;
+  font-size: 45px;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: yellow;
+  font-family: Wisdom Script;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.menu-item ul {
+  list-style: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  padding-left: 22px;
+  padding-top: 14px;
+}
+
+.menu-item {
+  float: right;
+}
+
+.home-content {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.home-btn a {
+  padding: 15px 40px;
+  background: yellow;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.home-btn {
+  margin-top: 70px;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: yellow;
+  font-family: Wisdom Script;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.menu-item ul {
+  list-style: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  padding-left: 22px;
+  padding-top: 14px;
+}
+
+.menu-item {
+  float: right;
+}
+
+.home-content {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.home-btn a {
+  padding: 20px 40px;
+  background: rgb(254, 209, 54);
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.home-btn {
+  margin-top: 60px;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: yellow;
+  font-family: Wisdom Script;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.menu-item ul {
+  list-style: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  padding-left: 22px;
+  padding-top: 14px;
+}
+
+.menu-item {
+  float: right;
+}
+
+.home-content {
+  text-align: center;
+  padding-top: 170px;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: yellow;
+  font-family: Wisdom Script;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.menu-item ul {
+  list-style: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  padding-left: 22px;
+  padding-bottom: 320px;
+}
+
+.menu-item {
+  float: right;
+}
+
+.logo a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(254, 209, 54);
+  font-family: Wisdom Script;
+}
+
+.menu-item ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.menu-item ul {
+  list-style: none;
+}
+
+.menu-item ul li {
+  display: inline-block;
+  padding-left: 22px;
+  padding-bottom: 160px;
+}
+
+.menu-item {
+  float: right;
+}
+
+
+/* ---------- End off Home Section ---------- */
+
+
+/* ---------- Start off Service Section ---------- */
+
+.serives-items .col-33 {
+  text-align: center;
+}
+
+.services-content {
+  text-align: center;
+}
+
+.services-content p span {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 28px;
+  font-style: normal;
+}
+
+.services-content p {
+  font-family: Droid serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 44px;
+}
+
+.serives-items {
+  margin-top: 70px;
+}
+
+.item-img img {
+  border: 3px solid rgb(254, 209, 54);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.serives-items .col-33 {
+  text-align: center;
+}
+
+.services-content {
+  text-align: center;
+}
+
+.services-content p span {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 28px;
+  font-style: normal;
+}
+
+.services-content p {
+  font-family: Droid serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 44px;
+}
+
+.item-content p {
+  font-family: Roboto Slab;
+}
+
+.item-content h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.serives-items .col-33:last-child .item-img img {
+  padding: 10px 15px;
+}
+
+.serives-items .col-33 .item-img {
+  margin-bottom: 15px;
+}
+
+.serives-items .col-33 .item-content h3 {
+  margin-bottom: 15px;
+}
+
+.serives-items .col-33:nth-child(2) img {
+  padding: 11px 9px;
+}
+
+
+/* ---------- End off Services Section ---------- */
+
+
+/* ---------- Start off Portfolio Section ---------- */
+
+section#portfolio {
+  background: rgb(247, 247, 247);
+}
+
+.portfolio-content {
+  text-align: center;
+}
+
+.portfolio-items .col-33 {
+  text-align: center;
+}
+
+.portfolio-item-content {
+  background-color: white;
+  width: 291px;
+  margin-left: 34px;
+  margin-top: -2px;
+  padding: 14px 0;
+}
+
+.portfolio-content h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.portfolio-content p {
+  font-family: Droid serif;
+  font-style: italic;
+}
+
+.portfolio-content h1 {
+  padding-bottom: 15px;
+}
+
+.portfolio-content p {
+  padding-bottom: 70px;
+}
+
+.portfolio-item-content h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
+.portfolio-item-content span {
+  font-family: Droid serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.portfolio-items:last-child {
+  padding-top: 430px;
+}
+
+
+/* ---------- End off Portfolio Section ---------- */
